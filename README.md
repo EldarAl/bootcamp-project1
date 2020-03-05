@@ -1,1 +1,1 @@
-# b-ootcamp-project1
+# bootcamp-project1
