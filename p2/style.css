@@ -1,0 +1,256 @@
+.box {
+    display: flex;
+    width: 550px;
+    height: 172px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 27px;
+    
+}
+.coin {
+    
+    width: 172px;
+    height: 172px;
+    margin-right: 18px;
+    background-image: url(./images/linkoln.png);
+    background-size: cover;
+}
+.coin1 {
+    
+    width: 172px;
+    height: 172px;
+    margin-right: 18px;
+    background-image: url(./images/bobr.png);
+    background-size: cover;
+}
+.coin2 {
+    
+    width: 172px;
+    height: 172px;
+    margin-right: 18px;
+    background-image: url(./images/kenedi.png);
+    background-size: cover;
+}
+.coin3 {
+    
+    width: 172px;
+    height: 172px;
+    margin-right: 18px;
+    background-image: url(./images/klen.png);
+    background-size: cover;
+}
+.coin4 {
+    
+    width: 172px;
+    height: 172px;
+    margin-right: 18px;
+    background-image: url(./images/tomas.png);
+    background-size: cover;
+}
+.coin5 {
+    
+    width: 172px;
+    height: 172px;
+    margin-right: 18px;
+    background-image: url(./images/qaqara.png);
+    background-size: cover;
+}
+.coin6 {
+    
+    width: 172px;
+    height: 172px;
+    margin-right: 18px;
+    background-image: url(./images/ruzvelt.png);
+    background-size: cover;
+}
+.coin7 {
+    
+    width: 172px;
+    height: 172px;
+    margin-right: 18px;
+    background-image: url(./images/los.png);
+    background-size: cover;
+}
+
+.about {
+    width: 224.39px;
+    height: 120px;
+    font-size: 12px;
+    margin-top: 31.26px;    
+    
+   
+    
+}
+.price {
+    width: 96px;
+    height: 120px;
+    margin-top: 31.26px;   
+    margin-left: 39.61px;
+    font-size: 16px;
+    line-height: 123.4%;
+   
+    
+   
+}
+h2.name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    
+    font-size: 16px;
+    color: #833AE0;
+    margin-top: 0px;
+   
+}
+.price p {
+    margin-top: 0px;
+}
+.discount {
+    
+    height: 43.97px;
+    width: 43.83px;
+    border-radius: 50%;
+    background-color: #833AE0;
+    float: right;
+    margin-right: 20px;
+    margin-top: 28px;
+    
+}
+.persent {
+  
+    font-family: 'Roboto', sans-serif;
+    font-style: Bold;
+    font-size-adjust: 15px;
+    text-align: center;
+    color: white;
+    margin-top: 11px;
+}
+.rub {
+    color: gray;
+    font-size: 12px;
+    font-weight: lighter;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 75px;
+}
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 43px;
+    line-height: 50px;
+    
+    
+    max-width: 1069px;
+    margin: 39px 87px 0 124px;
+    
+}
+a {
+    text-decoration: none;
+}
+a.back{
+    text-decoration: underline;
+}
+.bodycoin {
+    max-width: 1280px;
+    margin: auto;
+}
+td {
+    border: 1px solid gray;
+    
+    
+    
+
+}
+.infosheet {
+    background-color: #E1E1E1;
+    width: 365px;
+    height: 640px;
+    padding: auto;
+    font-family: 'Roboto', sans-serif;
+    margin: 12px 44px 0px 47px;
+    font-size: 14px;
+
+}
+.infosheetblock {
+    width: 456px;
+    height: 672px;
+    background-color: #E1E1E1;
+    margin: 24px 196px 24px 0px;
+}
+.price {
+    font-size: 26px;
+    font-weight: 750;
+    margin-left: 10px;
+    line-height: 0.7em;
+    
+}
+.grayword {
+    font-size: 10px;
+    color: gray;
+    
+}
+.article {
+    font-size: 10px;
+}
+
+}
+table { 
+    border-collapse: collapse;
+
+}
+.tabl{
+    border-collapse: collapse;
+    border: hidden;
+    font-size: 12px;
+    margin-bottom: 90px;
+    
+}
+tr {
+    
+}
+tr:nth-child(odd){
+    background-color: white;
+    
+    
+    
+}
+.linkolnimg {
+    position: relative;
+    width: 463px;
+    height: 463px;
+    top: -45px;
+    
+    
+    
+}
+.linkolnimg2 {
+    position: relative;
+    width: 458px;
+    height: 458px;
+    bottom: 170px;
+    
+    
+}
+
+.lincoin {
+    width: 463px;
+    height: 720px;
+    margin-left: 150px;
+}
+.mainbody {
+    display: flex;
+    width: 1280px;
+    height: 720px;
+    margin: auto;
+}
+
+.nazad  {
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+.heading {
+    margin-top: 30px;
+}
+.textlk {
+    margin-bottom: 25px;
+}
