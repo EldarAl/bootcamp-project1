@@ -233,3 +233,166 @@
 
 // Функции
 
+/*
+Напишите программу, которая выведет на консоль 
+текстом число от 1 до 99, введенное 
+пользователем. Например:
+
+24 -> “двадцать четыре”
+5  -> “пять”
+13 -> “тринадцать”
+*/
+
+// function getNumber() {
+//     return +prompt('Введите число');
+// }
+
+// function convertDigitToWord(digit) {
+//     switch (digit) {
+//         case 1:
+//             return 'один';
+//         case 2:
+//             return 'два';
+//         case 3:
+//             return 'три';
+//         case 4:
+//             return 'четыре';
+//         case 5:
+//             return 'пять';
+//         case 6:
+//             return 'шесть';
+//         case 7:
+//             return 'семь';
+//         case 8:
+//             return 'восемь';
+//         case 9:
+//             return 'девять';
+//         case 10:
+//             return 'десять';
+//     }
+// }
+
+// function convertTeensToWords(teens) {
+//     let result;
+//     switch (teens) {
+//         case 11:
+//             result = 'одиннадцать';
+//             break;
+//         case 12:
+//             result = 'двенадцать';
+//             break;
+//         case 13:
+//             result = 'тринадцать';
+//             break;
+//         case 14:
+//             result = 'четырнадцать';
+//             break;
+//         case 15:
+//             result = 'пятнадцать';
+//             break;
+//         case 16:
+//             result = 'шеснадцать';
+//             break;
+//         case 17:
+//             result = 'мемьнадцать';
+//             break;
+//         case 18:
+//             result = 'восемьнадцать';
+//             break;
+//         case 19:
+//             result = 'девятьнадцать';
+//             break;
+//     }
+//     return result;
+// }
+
+// function convertDecimalToWords(decimal) {
+//     let result;
+//     switch (decimal) {
+//         case 2:
+//             result = 'двадцать';
+//             break;
+//         case 3:
+//             result = 'тридцать';
+//             break;
+//         case 4:
+//             result = 'сорок';
+//             break;
+//         case 5:
+//             result = 'пятьдесят';
+//             break;
+//         case 6:
+//             result = 'шестьдесят';
+//             break;
+//         case 7:
+//             result = 'семьдесят';
+//             break;
+//         case 8:
+//             result = 'восемьдесят';
+//             break;
+//         case 9:
+//             result = 'девяносто';
+//             break;
+//     }
+//     return result;
+// }
+
+// function convertNumberToWords(number) {
+//     let result;
+//     if (number <= 10) {
+//         result = convertDigitToWord(number);
+//     } else if (number <= 19) {
+//         result = convertTeensToWords(number);
+//     } else {
+//         let units = number % 10; // Единицы
+//         let decimal = (number - units) / 10; // Десятичные
+//         result = convertDecimalToWords(decimal);
+//         if (units !== 0) {
+//             result += ' ' + convertDigitToWord(units);
+//         }
+//     }
+//     return result;
+// }
+
+// // Ввод
+// let number = getNumber();
+
+// // Алгоритм
+// // Вывод
+// alert(convertNumberToWords(number));
+
+
+
+
+
+//Цвета задача
+
+// function convertHexDigitToDecimal(digit) {
+//     if (Number(digit) >= 0 && Number(digit) <= 9) {
+//       return Number(digit);
+//     }
+//     switch (digit) {
+//       case 'A': return 10;
+//       case 'B': return 11;
+//       case 'C': return 12;
+//       case 'D': return 13;
+//       case 'E': return 14;
+//       case 'F': return 15;
+//     }
+//   }
+//   function convertHexColorToRGB(color) {
+//     let R = convertHexDigitToDecimal(color[1]) * 16 + convertHexDigitToDecimal(color[2]);
+//     let G = convertHexDigitToDecimal(color[3]) * 16 + convertHexDigitToDecimal(color[4]);
+//     let B = convertHexDigitToDecimal(color[5]) * 16 + convertHexDigitToDecimal(color[6]);
+    
+//     return `RGB(${R}, ${G}, ${B})`;
+//   }
+//   let hex = '#8A8A8A';
+//   let result = convertHexColorToRGB(hex);
+//   console.log(result);
+
+let i = 0;
+while (i < 10) {
+    alert (i);
+    i++;
+}
