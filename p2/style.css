@@ -203,9 +203,6 @@ table {
     margin-bottom: 90px;
     
 }
-tr {
-    
-}
 tr:nth-child(odd){
     background-color: white;
     
