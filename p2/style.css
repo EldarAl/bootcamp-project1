@@ -117,8 +117,7 @@ h2.name {
 .persent {
   
     font-family: 'Roboto', sans-serif;
-    font-style: Bold;
-    font-size-adjust: 15px;
+    font-size: 15px;
     text-align: center;
     color: white;
     margin-top: 11px;
@@ -165,7 +164,6 @@ td {
     background-color: #E1E1E1;
     width: 365px;
     height: 640px;
-    padding: auto;
     font-family: 'Roboto', sans-serif;
     margin: 12px 44px 0px 47px;
     font-size: 14px;
@@ -179,7 +177,7 @@ td {
 }
 .price {
     font-size: 26px;
-    font-weight: 750;
+    font-weight: 700;
     margin-left: 10px;
     line-height: 0.7em;
     
@@ -193,7 +191,7 @@ td {
     font-size: 10px;
 }
 
-}
+
 table { 
     border-collapse: collapse;
 

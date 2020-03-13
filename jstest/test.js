@@ -391,8 +391,101 @@
 //   let result = convertHexColorToRGB(hex);
 //   console.log(result);
 
-let i = 0;
-while (i < 10) {
-    alert (i);
-    i++;
-}
+// let i = 0;
+// while (i < 10) {
+//     alert (i);
+//     i++;
+// }
+
+
+
+
+// let initialString = 'Hello. My name is Ivan.';
+
+// function convertDots(str) {
+//     let newStr = ' ';
+
+//     let i =0;
+//     while (str[i]) {
+//         if(str[i]=='.'){
+//             newStr = newStr +'!';
+//         } else {
+//             newStr += str[i];
+//         }
+//         i++;
+//     }
+
+//     return newStr
+// }
+
+
+// let result = convertDots(initialString);
+// console.log(result);
+
+
+//Objects
+
+
+
+
+// let student = {
+//     name: 'Eldar',
+//     age: 23,
+// };
+
+// alert(student.name);
+// student.name ='Mark';
+// alert(student.name)
+// delete student.name
+
+
+//Альтернативный синтаксис
+
+// let key = prompt('Что вас интересует?')
+
+// let student = {
+//     name: 'Eldar',
+//     age: 23,
+//     'programming language': 'JavaScript',
+// };
+
+// alert(student[key])
+
+
+
+// let currency = 'AZN';
+// let amount = 1000;
+
+// let student = {
+//         name: 'Eldar',
+//         age: 23,
+//         'programming language': 'JavaScript',
+//         [currency+'deposit']: amount
+
+// }
+
+// console.log(student);
+
+// console.log(student.AZNdeposit);
+// console.log(student[currency+'deposit']);
+
+
+
+//     country = prompt('Страна'),
+//     serial = prompt('Номер паспорта')
+// }
+
+// alert(passport)
+
+let key = prompt ('Что вас интересует?')
+
+let student = {
+    name: 'Eldar',
+    age: 23,
+    'programming language': 'JavaScript',
+};
+alert(key in student)
+
+
+
+
