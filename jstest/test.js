@@ -477,14 +477,14 @@
 
 // alert(passport)
 
-let key = prompt ('Что вас интересует?')
+// let key = prompt ('Что вас интересует?')
 
-let student = {
-    name: 'Eldar',
-    age: 23,
-    'programming language': 'JavaScript',
-};
-alert(key in student)
+// let student = {
+//     name: 'Eldar',
+//     age: 23,
+//     'programming language': 'JavaScript',
+// };
+// alert(key in student)
 
 
 

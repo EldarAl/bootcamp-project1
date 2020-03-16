@@ -1,75 +1,51 @@
+
 .box {
     display: flex;
-    width: 550px;
-    height: 172px;
-    font-family: 'Roboto', sans-serif;
-    margin-left: 27px;
-    
+    justify-content: space-between;
+    max-width: 48%;
+    min-width: 450px;
+    height: 150px;
 }
-.coin {
-    
-    width: 172px;
-    height: 172px;
-    margin-right: 18px;
-    background-image: url(./images/linkoln.png);
-    background-size: cover;
+
+.tittle{
+    font-family: Roboto , sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 43px;
+    line-height: 50px;
+    min-width: 500px;
+    color: #000000;
+    margin: 0;
 }
-.coin1 {
-    
-    width: 172px;
-    height: 172px;
-    margin-right: 18px;
-    background-image: url(./images/bobr.png);
-    background-size: cover;
+
+.coin{
+    position: relative;
+    border-radius:50%
+
 }
-.coin2 {
-    
-    width: 172px;
-    height: 172px;
-    margin-right: 18px;
-    background-image: url(./images/kenedi.png);
-    background-size: cover;
+
+.coin_img{
+    max-width: 172px;
 }
-.coin3 {
-    
-    width: 172px;
-    height: 172px;
-    margin-right: 18px;
-    background-image: url(./images/klen.png);
-    background-size: cover;
+.coin_discount{
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    top: 10%;
+    right:10%;
+    border-radius:50%;
+    background: #833AE0;
 }
-.coin4 {
-    
-    width: 172px;
-    height: 172px;
-    margin-right: 18px;
-    background-image: url(./images/tomas.png);
-    background-size: cover;
+.coin_discount p {
+    font-family: Roboto , sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
 }
-.coin5 {
-    
-    width: 172px;
-    height: 172px;
-    margin-right: 18px;
-    background-image: url(./images/qaqara.png);
-    background-size: cover;
-}
-.coin6 {
-    
-    width: 172px;
-    height: 172px;
-    margin-right: 18px;
-    background-image: url(./images/ruzvelt.png);
-    background-size: cover;
-}
-.coin7 {
-    
-    width: 172px;
-    height: 172px;
-    margin-right: 18px;
-    background-image: url(./images/los.png);
-    background-size: cover;
-}
+
 
 .about {
     width: 224.39px;
@@ -103,56 +79,37 @@ h2.name {
 .price p {
     margin-top: 0px;
 }
-.discount {
-    
-    height: 43.97px;
-    width: 43.83px;
-    border-radius: 50%;
-    background-color: #833AE0;
-    float: right;
-    margin-right: 20px;
-    margin-top: 28px;
-    
-}
-.persent {
-  
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    text-align: center;
-    color: white;
-    margin-top: 11px;
-}
+
 .rub {
     color: gray;
     font-size: 12px;
     font-weight: lighter;
 }
 .container {
+    max-width: 1080px; 
+    margin: auto;
+    
+}
+.main {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 75px;
 }
-.title {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    font-size: 43px;
-    line-height: 50px;
-    
-    
-    max-width: 1069px;
-    margin: 39px 87px 0 124px;
-    
-}
+
 a {
     text-decoration: none;
 }
 a.back{
-    text-decoration: underline;
+    display: block;
+    font-family: Roboto ,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #833AE0;
+    padding-top: 50px;
+    padding-bottom:20px ;
 }
-.bodycoin {
-    max-width: 1280px;
-    margin: auto;
-}
+
 td {
     border: 1px solid gray;
     
@@ -161,20 +118,12 @@ td {
 
 }
 .infosheet {
-    background-color: #E1E1E1;
-    width: 365px;
-    height: 640px;
-    font-family: 'Roboto', sans-serif;
-    margin: 12px 44px 0px 47px;
-    font-size: 14px;
+    padding:12px 44px 16px 47px;
+    background: rgba(196, 196, 196, 0.5);
+    width: 50%;
 
 }
-.infosheetblock {
-    width: 456px;
-    height: 672px;
-    background-color: #E1E1E1;
-    margin: 24px 196px 24px 0px;
-}
+
 .price {
     font-size: 26px;
     font-weight: 700;
@@ -200,43 +149,44 @@ table {
     border-collapse: collapse;
     border: hidden;
     font-size: 12px;
-    margin-bottom: 90px;
+   
     
 }
 tr:nth-child(odd){
     background-color: white;
-    
-    
-    
+   
+     
+}
+
+.coinbody {
+    max-width: 920px;
+    min-width: 600px;
+    margin: auto;
 }
 .linkolnimg {
-    position: relative;
-    width: 463px;
-    height: 463px;
-    top: -45px;
-    
-    
+    position: absolute;
+    width: 100%;
     
 }
 .linkolnimg2 {
-    position: relative;
-    width: 458px;
-    height: 458px;
-    bottom: 170px;
+    position: absolute;
+    display: none;
+    width: 100%;
     
     
 }
 
 .lincoin {
-    width: 463px;
-    height: 720px;
-    margin-left: 150px;
+    position: relative;
+    width: 50%;
+    height: 50%;
+}
+.lincoin:hover  .linkolnimg2{
+    display: block;
 }
 .mainbody {
     display: flex;
-    width: 1280px;
-    height: 720px;
-    margin: auto;
+    font-family: "Roboto" , sans-serif;
 }
 
 .nazad  {
@@ -244,8 +194,22 @@ tr:nth-child(odd){
     margin-left: 30px;
 }
 .heading {
-    margin-top: 30px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
 }
 .textlk {
     margin-bottom: 25px;
+}
+.container_product{
+    max-width: 920px;
+    min-width: 600px;
+    margin: auto;
+}
+.main_product{
+    display: flex;
+    font-family: "Roboto" , sans-serif;
 }
