@@ -469,7 +469,7 @@
 // console.log(student.AZNdeposit);
 // console.log(student[currency+'deposit']);
 
-
+        
 
 //     country = prompt('Страна'),
 //     serial = prompt('Номер паспорта')
@@ -488,4 +488,27 @@
 
 
 
+
+// METODS
+// 1
+
+// let user = {
+//     name: 'Jhon' ,
+//     age: 23,
+//     gender: male
+// };
+
+// user.exist () {
+//     return(true)
+// };
+// getYearsBeforeRetirement () {
+//     if (this.gender=male){x
+//         return(65-this.age)
+//     } else (this.gender=female) {
+//         return(63-this.age)
+//     }
+// }
+
+
+// console.log(user.exist());
 
