@@ -1,0 +1,50 @@
+.main {
+    justify-content: space-between;
+    width: 500px;
+    height: 320px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px 40px 20px 40px;
+    margin: auto;
+   
+}
+.line {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.inp {
+    height: 25px;
+}
+
+.button1 {
+    display: block;
+    width: 500px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: green;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;  
+}
+
+.errorColor {
+    color: red;
+}
+
+.logo {
+    width: 500px;
+}
+.logobox{
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+.string {
+    font-size: 18px;
+    font-weight: bold;
+}
