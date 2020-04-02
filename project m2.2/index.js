@@ -155,7 +155,7 @@ class Application{
             if(checkList[i].canDeposit && monthlyAdd>0 && checkList[i].currency===currency) canDepositCheck.push(checkList[i]);
         }
         canDepositCheck.sort((a, b) => a.result - b.result);
-        if(canDepositCheck.length===0) alert("Нет Такого БАНКА!!!");
+        if(canDepositCheck.length===0) alert("Нет подходящего БАНКА");
         else {
             if(canDepositCheck[canDepositCheck.length-1].result===canDepositCheck[canDepositCheck.length-2].result){
                 table.innerHTML ='';
