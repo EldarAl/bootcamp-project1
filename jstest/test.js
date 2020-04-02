@@ -502,7 +502,7 @@
 //     return(true)
 // };
 // getYearsBeforeRetirement () {
-//     if (this.gender=male){x
+//     if (this.gender=male){
 //         return(65-this.age)
 //     } else (this.gender=female) {
 //         return(63-this.age)

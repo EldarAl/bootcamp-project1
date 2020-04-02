@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="HTMLforms.css">
+</head>
+<body>
+    <form name="feedback_form">
+        <div>
+            <label for = "student-name">Имя студента</label>
+            <input type="text" id = "student-name" name = "studentname" required/>
+        </div>
+        <div>
+            <label for="lesson"  >Выберите урок</label>
+            <select id="lesson" name ="lessons" required>
+                <option value = "events">События</option>
+                <option value = "htmlforms">HTML формы</option>  
+            </select>
+        </div>
+        <div>
+            <label for="feedback">Отзыв</label>
+            <textarea id="feedback" name="message" rows="5" cols="30" required></textarea re>
+        </div>
+        <div>
+            <label for="done">Сколько практических заданий вы успели решить?</label>
+            <input id="done" type="number" name="s_number" required/>
+        </div>
+        <div>
+            <label for="understand">Я всё понял!</label>
+            <input id="understand" type="checkbox" name="s_understand" required>
+        </div>
+        <div>
+            <label for="button"></label>
+            <input id="button" type="submit" name="s_submit" value="Отправить">
+        </div>
+    </form>
+    <script src="HTMLforms.js"></script>
+</body>
+<html> 
