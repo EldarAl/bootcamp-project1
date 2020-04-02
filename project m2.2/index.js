@@ -88,7 +88,7 @@ class Calculator{
             result = (data.startSum*Math.pow(1+(newArray[i].incomeType/100)/12,data.period)) + data.monthlyAdd*pow(data.period,newArray[i].incomeType);
             newArray[i].result= Math.floor(result);
         }
-        function pow(time,annual){//Цикл меняющий ещемесячный взнос в зависимости от количества месяцев
+        function pow(time,annual){
             let power = 0;
             for(let i=time;i>0;i--){
                 power += Math.pow(1+(annual/100)/12,i);
@@ -101,14 +101,14 @@ class Calculator{
 
 function errorCheck(startSum, monthlyAdd, period) {
     if(startSum<=0){
-        return error.innerHTML = `Начальная сумма вклада Должна быть положительным числом!!!!`;
+        return error.innerHTML = `Начальная сумма вклада должна быть положительным числом!`;
 
     }else
     if(monthlyAdd<0){
-        return error.innerHTML = `Сумма ежемесячного пополнения Должна быть положительным числом!!!!`;
+        return error.innerHTML = `Сумма ежемесячного пополнения должна быть положительным числом!`;
     }else
     if(period<=0 || Number.isInteger(period)===false){
-        return error.innerHTML = `Срок Должен быть положительным целым числом!!!!`;
+        return error.innerHTML = `Срок должен быть положительным целым числом!`;
     }
     return error.innerHTML='';
 }
