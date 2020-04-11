@@ -4,43 +4,34 @@ body {
     box-sizing: border-box;
 }
 
-#equities {
+table.equities {
     border-collapse: collapse;
-    
 }
-/* 
-#equities tr {
-    border: 1px solid black;
-} */
 
-#equities  th {
+table.equities tr {
+    border-bottom: 1px solid #ece6e6;
+}
+
+table.equities  th {
     background: #fffeea;
     padding: 10px;
     text-align: center;
-    
 }
 
-#equities  th a, #equities  th a:visited {
+table.equities  th a, table.equities  th a:visited {
     text-decoration: none;
     color: #0D66A5;
 }
 
-#equities  th a:hover {
+table.equities  th a:hover {
     text-decoration: underline;
 }
 
-#equities  td {
+table.equities  td {
     padding: 8px 40px;
-    border: 1px solid black;
-
-    
 }
 
-#equities  tr > td:first-child {
-    padding-right: 0;
-}
-
-#equities  tr > td:last-child, #equities  tr > td:nth-child(4) {
+table.equities  tr > td:last-child, table.equities  tr > td:nth-child(3) {
     text-align: center;
 }
 
@@ -52,7 +43,3 @@ td.increase {
 td.decrease {
     background: #f5dada;
 }
-
-img.flag {
-    height: 30px;
-}j

@@ -21,6 +21,7 @@
 
 // const cells = document.querySelectorAll('.last-cell');
 
+
 // cells.forEach((item) => {
 //     console.log(item.innerHTML);
 // })

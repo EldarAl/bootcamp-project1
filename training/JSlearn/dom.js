@@ -1,0 +1,15 @@
+let li = document.createElement('li');
+let ul = document.querySelector('.menu');
+console.log(ul);
+console.log(li);
+li.classList.add('menu-item');
+ul.appendChild(li);
+li.innerText  = 'Пятый пункт';
+document.body.style.background = 'url(img/apple_true.jpg) center no-repeat';
+let div = document.querySelector('.title');
+console.log(div);
+div.innerText = "Мы продаем только подлинную технику Apple";
+let rem = document.querySelector('.adv');
+rem.remove();
+let comm = document.querySelector('.prompt');
+comm.innerText = prompt('Как вы относитесь к технике apple?');
